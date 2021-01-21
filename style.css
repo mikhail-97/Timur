@@ -1,0 +1,294 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.block_header {
+    background: rgba(0, 91, 193, 0.6);
+    height: 5rem;
+    display: flex;
+    width: 100%;
+}
+
+.container_header {
+    width: 57.8125vw;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 20.5vw;
+}
+.logo_svg {
+    margin-left: 10.5%;
+}
+
+.mnu_top {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    width: 42%;
+    justify-content: space-between;
+}
+
+.li {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 0.875em;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.left_container {
+    width: 40%;
+    background: rgba(0, 91, 193, 0.6);
+    height: 45rem;
+}
+
+.first_screen__content {
+    width: 55%;
+    position: relative;
+    right: 22.5%;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: white;
+    font-family: "Oswald";
+    font-weight: 400;
+}
+
+.work {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    margin-top: 6.554%;
+}
+
+.go_over {
+    padding: 2.47% 6.68%;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1em;
+    background-color: Transparent;
+    color: white;
+    border: 2px solid #FFFFFF;
+    margin-top: 6.554%;
+}
+.intention {
+    margin-top: 13.515%;
+    width: 100%;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+.our_projects {
+    display: flex;
+    width: 31%;
+    justify-content: space-between;
+
+}
+.h2 {
+    font-family: "Oswald";
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.875em;
+}
+.slider_menu {
+    display: flex;
+    justify-content: right;  
+}
+.olympus {
+    display: flex;
+    margin-top: 6.13%;
+    justify-content: space-between;
+}
+.rectangle1{
+    padding-left: 22.523%;
+    padding-top: 22.523%;
+    padding-right: 3.16%;
+    padding-bottom: 3.16%;
+    background-image: url(Rectangle1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48.64%;
+}
+.text_project1 {
+ background-color: white;
+ padding: 7.85% 9.8125%;
+ width: 100%;
+}
+.p1 {
+font-size: 0.875em;
+width: 90%;
+margin-bottom: 0;
+font-family: "Open Sans";
+font-weight: 300;
+}
+.olimp {
+    font-size: 1.125em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Oswald";
+    font-weight: 400;
+    color: #343434;
+}
+.rectangle2{
+    padding-left: 22.523%;;
+    padding-top: 22.523%;;
+    padding-right: 3.16%;
+    padding-bottom: 3.16%;
+    background-image: url(Rectangle2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48.64%;
+}
+.item {
+    width: 100%;
+    background-color:black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.left {
+    width: 10%;
+    background-color: blueviolet;
+    height: 80px;
+}
+.center {
+    width: 40%;
+    background-color: chartreuse;
+    height: 80px;
+}
+
+@media(min-width: 1400px) and (max-width: 1600px) {
+    .li {
+        font-size: 0.875em;
+    }
+    .mnu_top {
+        width: 50%;
+    }
+    h1 {
+        font-size: 2.345em;
+    }
+    .work {
+        font-size: 0.95em;
+    }
+    .go_over {
+        font-size: 0.875em;
+    }
+  
+    .h2 {
+        font-size: 1.5em;
+    }
+    
+    .olimp {
+        font-size: 0.9375em;
+
+    }
+    .p1 {
+        font-size: 0.729em;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .li {
+        font-size: 0.875em;
+    }
+    .mnu_top {
+        width: 60%;
+    }
+    h1 {
+        font-size: 2.345em;
+    }
+    .work {
+        font-size: 0.95em;
+    }
+    .go_over {
+        font-size: 0.875em;
+    }
+  
+    .h2 {
+        font-size: 1.1em;
+    }
+    
+    .olimp {
+        font-size: 0.9em;
+
+    }
+    .p1 {
+        font-size: 0.8em;
+    }
+    .slider {
+        width: 4vw;
+    }
+}
+@media (max-width: 1200px) {
+    .li {
+        font-size: 0.6em;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    .work {
+        font-size: 0.7em;
+    }
+    .go_over {
+        font-size: 0.65em;
+    }
+  
+    .h2 {
+        font-size: 1.12em;
+    }
+    .decor {
+        width: 35%;
+    }
+    .slider {
+        width: 4vw;
+    }
+    
+    .olimp {
+        font-size: 0.7em;
+
+    }
+    .p1 {
+        font-size: 0.5em;
+    }
+    .mnu_top {
+    }
+}
+@media (max-width: 992px)
+{
+
+}
